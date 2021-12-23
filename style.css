@@ -9,16 +9,39 @@
     color: white;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
+/*Menu com listas*/
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
     background-color: rgba(128, 128, 128, 0.219);
+    overflow: hidden;
 }
-th, td {
-    text-align: left;
-    padding: 8px;
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
     color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
 }
-td:hover {
-    background-color: rgba(128, 128, 128, 0.63);
+
+li a:hover {
+    background-color:rgba(40, 40, 40, 0.219)
+}
+
+/*abrir menu*/
+.menu {
+    display: none;
+    position: absolute;
+}
+.menuabre:hover .menu{
+    display: block;
+}
+.menuabre:hover {
+    background-color: rgba(0, 0, 0, 0.219);
 }
