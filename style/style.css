@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #body {
     /*background-image: url("./images/fundoSite.png");*/
     background-color: rgb(61, 61, 61);
