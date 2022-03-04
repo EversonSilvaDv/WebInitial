@@ -28,7 +28,7 @@ body > nav {
 }
 body > main {
     grid-area: main;
-    background-color: #c5c5c5;
+    background-color: #7c7c7c;
 }
 body > footer {
     grid-area: foot;
