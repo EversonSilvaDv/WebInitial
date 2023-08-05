@@ -8,6 +8,10 @@ body {
     color: white;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .page {
     height: calc(100vh - 40px);
     margin: 20px;
@@ -15,20 +19,17 @@ body {
     box-shadow: 0px 10px 10px #252525;
 }
 
-.boxHeader {
-    
-}
-
-.boxAboutMe {
-    
-}
-
 .boxMenu {
     position: fixed;
-    top: 25%;
+    height: 200px;
+    top: calc(50% - 100px);
     left: 20px;
-    height: 50%;
     background-color: transparent;
+}
+
+.iconStyle {
+    padding: 5px;
+    cursor: pointer;
 }
 
 .center {
